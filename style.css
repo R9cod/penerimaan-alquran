@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://source.unsplash.com/800x1200/?texture,blue') no-repeat center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color: #6d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+header .logo span {
+    color: #8b0000;
+}
+
+main h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #8b0000;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #8b0000;
+}
+
+.swipe {
+    text-transform: uppercase;
+    text-align: center;
+}
